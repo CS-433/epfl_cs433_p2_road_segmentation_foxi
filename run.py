@@ -15,7 +15,7 @@ PATCH_SIZE = 200
 PADDING = 28
 NUM_IMAGES = 100
 TRAIN_TEST_RATIO = 0.8
-ROTATIONS = range(1, 91, 90)
+
 
 device = len(tf.config.experimental.list_physical_devices('GPU'))
 
